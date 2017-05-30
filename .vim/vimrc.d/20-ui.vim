@@ -1,3 +1,4 @@
+set mouse=a
 set visualbell
 set timeoutlen=60
 set cmdheight=2
