@@ -1,0 +1,7 @@
+[user]
+	useConfigOnly = true
+[alias]
+	ci = commit
+	co = checkout
+	lg = log --graph --abbrev-commit --decorate --date=format:'%b %e %R' --format=format:'%C(cyan)%h%C(reset) %C(blue)%ad%C(reset) %C(black)%cn%C(reset) - %s' --all
+	st = status -sb
