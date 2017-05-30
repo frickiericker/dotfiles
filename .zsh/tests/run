@@ -1,0 +1,4 @@
+#!/bin/sh
+zsh tester.zsh test_init.zsh
+zsh tester.zsh test_rc.zsh
+zsh tester.zsh test_plugin.zsh
