@@ -24,6 +24,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'matze/vim-move'
 
 " Fuzzy finder
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Search and completion
