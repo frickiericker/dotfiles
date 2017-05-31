@@ -1,4 +1,4 @@
-ZSHRC_ROOT="${${(%):-%N}:a:h}"
+ZSHRC_ROOT="${${(%):-%x}:a:h}"
 
 source "${ZSHRC_ROOT}/rc.zsh"
 source "${ZSHRC_ROOT}/plugin.zsh"
