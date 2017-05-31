@@ -17,7 +17,7 @@ do_assert() {
         TEST_EXIT_CODE=1
     fi
 }
-alias assert='do_assert $0 ${LINENO} "$@"'
+alias assert='do_assert ${(%):-%N} ${(%):-%i}'
 
 source "${TEST_FILE}"
 
