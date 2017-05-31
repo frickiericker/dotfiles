@@ -1,1 +1,1 @@
-source "${HOME}/etc/.zsh/init.zsh"
+source "${${(%):-%x}:A:h}/.zsh/init.zsh"
