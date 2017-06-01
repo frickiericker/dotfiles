@@ -1,4 +1,1 @@
-let s:vimdir = expand('<sfile>:p:h')
-for s:subrc in split(glob(s:vimdir . "/vimrc.d/*.vim"), "\n")
-    execute "source " . s:subrc
-endfor
+runtime! vimrc.d/*.vim
