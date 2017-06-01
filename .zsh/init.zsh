@@ -15,8 +15,8 @@ zshrc() {
         ;;
     update)
         __zshrc::plugin::update
-	__zshrc::rc::reload
-	;;
+        __zshrc::rc::reload
+        ;;
     reload)
         __zshrc::rc::reload
         ;;
