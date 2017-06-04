@@ -13,7 +13,7 @@ au ColorScheme molokai hi cType            ctermfg=161
 au ColorScheme molokai hi cppAuto          ctermfg=136
 au ColorScheme molokai hi cppConst         ctermfg=136
 au ColorScheme molokai hi cppConstexpr     ctermfg=136
-au ColorScheme molokai hi cppStandoutDelim ctermfg=82
-au ColorScheme molokai hi cppUnimportang   ctermfg=60
 au ColorScheme molokai hi cppNamespaceStd  ctermfg=241
+au ColorScheme molokai hi myStandout       ctermfg=82
+au ColorScheme molokai hi myUnimportant    ctermfg=60
 colorscheme molokai
